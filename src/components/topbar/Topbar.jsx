@@ -1,14 +1,15 @@
 import React from 'react'
 import './topbar.css'
-import avatar from './avatar.jpeg';
-import { NotificationsNone, Language, Settings } from '@material-ui/icons';
+import avatar from './kml.jpeg';
+import { NotificationsNone, Language, Settings, AccountBox } from '@material-ui/icons';
 
 export default function Topbar() {
     return (
         <div className='topbar'>
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <span className='logo'>kamaladmin</span>
+                <AccountBox className='logoIcon'/>
+                    <span className='logo'>Admin Portal</span>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">

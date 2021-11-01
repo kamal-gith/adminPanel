@@ -7,6 +7,13 @@
     z-index: 999;
 }
 
+.topLeft{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-bottom: 0.09px solid goldenrod;
+}
+
 .topRight{
     display: flex;
     align-items: center;
@@ -23,8 +30,12 @@
 .logo{
     font-weight: bold;
     font-style: 30px;
-    color: skyblue;
+    color: rgb(130, 245, 245);
     cursor: pointer;
+}
+
+.logoIcon{
+    color: green;
 }
 
 .topbarIconContainer{
